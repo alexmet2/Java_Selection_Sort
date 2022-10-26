@@ -12,7 +12,7 @@ public class Selection_Sort{
         int array[] = {8, 7, 9, 2, 3, 1, 5, 4, 6};
         /* iterates through the array */
         for(int i : array){
-            System.out.print(i);
+            System.out.print(i + " ");
         }
         System.out.println();
         main2();
@@ -25,7 +25,7 @@ public class Selection_Sort{
         System.out.println("After sort (ascending): ");
         /* iterates through the array */
         for(int i : array){
-            System.out.print(i);
+            System.out.print(i + " ");
         }
         System.out.println();
     }
@@ -36,7 +36,7 @@ public class Selection_Sort{
         System.out.println("After sort (descending): ");
         /* iterates through the array */
         for(int i : array){
-            System.out.print(i);
+            System.out.print(i + " ");
         }
     }
     private static void selectionSortAscending(int[] array) {
